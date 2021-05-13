@@ -1,0 +1,52 @@
+html, body{
+ height : 100%;
+ margin : 0;
+}
+body{
+ background-image : linear-gradient(to right top, #b8f5ed, #88f7e9, #4ff7e2, #28f7dd, #07f7d9);
+}
+#logout{
+ font-size : 20px; 
+ float : right;
+ width : 150px;
+}
+.header{
+ color : forestgreen;
+ font-family : 'Yeon Sung';
+ font-size : 60px;
+ letter-spacing : 10px;
+ margin-top : 80px;
+}
+.header img{
+ width : 100px;
+ margin-left : -15px;
+}
+#output{
+ padding : 10px; 
+ width : 90%;
+ background : rgba(200,300,100,0.8);
+ border-radius : 15px;
+}
+.input_div_message_page{
+ position : fixed;
+ bottom : 0px;
+ width : 100%;
+ background: rgba(300,100,200,0.8);
+}
+.input_div_message_page label{
+ color : fuchsia;
+}
+.input_div_message_page #msg{
+ width : 90%;
+}
+.input_div_message_page button{
+ margin-top : 20px;
+ width : 5%; 
+}
+.wolf{
+ width : 40px;
+}
+.message_h4{
+ padding-left : 10px;
+ color: gainsboro;
+}
